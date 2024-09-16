@@ -17,12 +17,7 @@
         </div>
           
     </div>
-        <div id="effects" >
-          <img src="https://itz-marcus.github.io/Project_images/PoloBanner.gif" alt="banner" data-aos="fade-left" data-aos-duration="400">   
-          <img src="https://itz-marcus.github.io/Project_images/globe.gif" alt="globe" data-aos="fade-left" data-aos-duration="400">  
-          <img src="https://itz-marcus.github.io/Project_images/decore-txt.png" alt="m-player" data-aos="fade-left" data-aos-duration="400">
-          <img src="https://itz-marcus.github.io/Project_images/Compact-Disc-Logo.png" alt="disc-imp" data-aos="fade-left" data-aos-duration="400">
-        </div> 
+        
   </div>
 </template>
 
