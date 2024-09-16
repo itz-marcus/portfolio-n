@@ -26,7 +26,7 @@ nav a {
   text-decoration: none;
   rotate: -90deg;
   transition: 0.3s;
-  font-size: 2.3vh;
+  font-size: 2.5vh;
 }
 nav a:hover{
   color: rgb(255, 199, 1);
