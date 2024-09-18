@@ -3,9 +3,9 @@
     <nav id="navbar">
           <router-link to="/">Home</router-link>
           <router-link  to="/about">About</router-link>
-          <router-link id="nav3" to="/resume">Resume</router-link>
+          <router-link id="nav3" to="/resume">Education</router-link>
           <router-link  to="/projects">Projects</router-link>
-          <router-link  to="/contact">Contact</router-link>
+          <router-link id="nav5" to="/contact">Contact</router-link>
     </nav> 
   </div>
 </template>
@@ -43,11 +43,13 @@ nav a.router-link-exact-active {
     gap: 5%;
     width: 40px;
     margin-left: 1vw;
+    margin-top: 1vw;
 }
 #nav3 {
-    margin-bottom: 20%;
+    margin-top: 80%;
+    margin-bottom: 50%;
 }
 #nav5 {
-    margin-top: 100%;
+    margin-top: 40%;
 }
 </style>

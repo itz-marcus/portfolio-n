@@ -1,14 +1,12 @@
 <template>
   <div class="about">
-    <img src="https://itz-marcus.github.io/Project_images/2nd_page_clear.png" alt="backgrounds" loading="lazy">
     <div class="flexing2">
            <!-- code here -->
                 <div data-aos="fade-right" data-aos-duration="400">
                     <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="lazy" >
                 </div>
                 <br>
-                  <h2 data-aos="fade-left" data-aos-duration="400">Hi! I'm <b>Marcus Adonis</b>, one who is passionate about <b>Design</b>, <b>Computing</b>, <b>Video</b> <b>gaming</b>, <b>Skateboarding</b> and <b>Cars</b>. I enjoy working with a <b>team</b>, because it allows for ideas to be shared and <b>promotes</b> better work flow<b>...</b><br>
-                        I continuously aim to do my best, be creative and I have ideas that play <b>outside</b> <b>the</b> <b>box</b>.
+                  <h2 data-aos="fade-left" data-aos-duration="400">Hi! I'm <b>Marcus Adonis</b>, I've been into <b>design</b> as long as I can remember. When I got into highschool and exposed to <b>coding</b> for the first time. I was <b>immediately</b> excited about the endless possibilities with <b>coding</b> and <b>design.</b>Now with this new passion for code I've been learning web development and ready to tackle the next project.
                     <br>
                     <br>
                         <b>Soft skills:</b> Team-player, Creativity 
@@ -27,8 +25,6 @@
                         <img src="https://itz-marcus.github.io/Project_images/Boot_Strap.png" alt="HTMLL">
                         <img src="https://itz-marcus.github.io/Project_images/Vue.js_Logo.png" alt="HTMLL">
                     </h2>
-                
-                    
     </div>
   </div>
   
@@ -50,7 +46,7 @@ h2{
    font-size: 14px !important;
 }
   img[alt='pfp']{
-    width: 290px !important;
+    width: 240px !important;
     left: 55%;
     margin-left: auto;
     margin-right:auto;
@@ -105,7 +101,7 @@ u{
 .flexing2{
     display: flex;
     width: 65%;
-    margin-top: 7%;
+    margin-top: 4vw;
     margin-left: 10%;
 
 }

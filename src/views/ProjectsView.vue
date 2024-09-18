@@ -1,6 +1,5 @@
 <template>
     <div>
-        <img src="https://itz-marcus.github.io/Project_images/4th_page_clear.png" alt="backgrounds2" loading="lazy">
         <div id="container">
           <div v-for ="project in projectData()" :key="project.name" data-aos="zoom-in" data-aos-duration="400">
             <div id="Card" >

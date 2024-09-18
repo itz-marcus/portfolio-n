@@ -1,6 +1,5 @@
 <template lang="">
     <div class="contact">
-        <img src="https://itz-marcus.github.io/Project_images/6th_page_clear.png" alt="backgrounds3" loading="lazy">
     <section class="d-flex " >
         <div id="End-title-b" data-aos="fade-right" data-aos-duration="400">
             <h2 id="End-title">Let's get in <b>touch!</b></h2>

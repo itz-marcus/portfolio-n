@@ -1,6 +1,5 @@
 <template>
   <router-view/>
-  <img src="https://itz-marcus.github.io/Project_images/1st_page_clear.png" alt="bgimage" loading="lazy">
   <img src="https://itz-marcus.github.io/Project_images/Logo.png" alt="logo" loading="lazy" data-aos="zoom-in" data-aos-duration="400">
   <div class="home">
     <div>
@@ -158,18 +157,6 @@ i:hover{
     color: rgb(255, 199, 1);
     text-shadow: 0px 2px 0px  rgb(53, 53, 53) ;
     transform: scale(120%);
-}
-img[alt='bgimage']{
-    width: 985px;
-    height: auto;
-    background-repeat: no-repeat;
-    opacity: 0.5; 
-    position: fixed;
-    z-index: -1;
-    left: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 img[alt='logo']{
     height: 7vh;

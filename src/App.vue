@@ -1,5 +1,6 @@
 <template>
   <div id="border">
+    <img src="https://itz-marcus.github.io/Project_images/Background_img.jpeg" alt="bgimage" loading="lazy">
     <div class="flexing">
       <div id="d1">
         <navbar-comp>
@@ -59,5 +60,12 @@ font-size: 1vw;
   height: 84vh;
   backdrop-filter:blur(px)
 }
-
+img[alt='bgimage']{
+    width: 97.5vw;
+    height: 83.5vh;
+    background-repeat: no-repeat;
+    opacity: 0.2; 
+    position: fixed;
+    z-index: -1;
+}
 </style>

@@ -1,5 +1,4 @@
 <template lang="">
-    <img src="https://itz-marcus.github.io/Project_images/3rd_page_clear.png" alt="backgrounds" loading="lazy">
     <div>
         <div id='timeline-pos'>
                 <div id="grid" class="container text-center">
