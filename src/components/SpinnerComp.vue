@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="spinner">
         <div class="loader">
             <div class="box1"></div>
             <div class="box2"></div>
@@ -13,6 +13,13 @@ export default {
 }
 </script>
 <style>
+.spinner{
+  width:94.5vw;
+  height:83.5vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
     .loader {
   width: 112px;
   height: 112px;

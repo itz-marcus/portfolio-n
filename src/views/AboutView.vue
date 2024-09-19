@@ -3,7 +3,7 @@
     <div class="flexing2">
            <!-- code here -->
                 <div data-aos="fade-right" data-aos-duration="400">
-                    <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="lazy" >
+                    <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="eager" >
                 </div>
                 <br>
                   <h2 data-aos="fade-left" data-aos-duration="400">Hi! I'm <b>Marcus Adonis</b>, I've been into <b>design</b> as long as I can remember. When I got into highschool and exposed to <b>coding</b> for the first time. I was <b>immediately</b> excited about the <b>endless</b> possibilities with <b>coding</b> and <b>design.</b> Now with this new passion for code I've been learning web development and ready to tackle the next project.
@@ -149,6 +149,6 @@ u{
   font-size: 1.5vw;
 }
 @media screen and (max-width:1700px){
-  
+
 }
 </style>

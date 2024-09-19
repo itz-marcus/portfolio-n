@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div id="container">
+        <div id="container" v-if="projectData()">
           <div v-for ="project in projectData()" :key="project.name" data-aos="zoom-in" data-aos-duration="400">
             <div id="Card" >
                 <div id="card-b" class="card" style="margin-top: 3vh;border-radius: 0px; width: 17rem; height: 17.2vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
@@ -15,10 +15,15 @@
             </div> 
         </div>  
         </div>
+        <div v-else>
+            <spinner-comp/>
+        </div>
     </div>
 </template>
 <script>
+import SpinnerComp from '@/components/SpinnerComp.vue';
 export default {
+  components: { SpinnerComp },
     methods:{
         projectData(){
             return this.$store.state.projects

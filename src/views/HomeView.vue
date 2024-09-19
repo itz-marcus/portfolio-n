@@ -1,6 +1,6 @@
 <template>
   <router-view/>
-  <img src="https://itz-marcus.github.io/Project_images/Logo.png" alt="logo" loading="lazy" data-aos="zoom-in" data-aos-duration="400">
+  <img src="https://itz-marcus.github.io/Project_images/Logo.png" alt="logo" loading="eager" data-aos="zoom-in" data-aos-duration="400">
   <div class="home">
     <div>
         <div id="title">

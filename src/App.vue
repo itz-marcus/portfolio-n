@@ -1,6 +1,6 @@
 <template>
   <div id="border">
-    <img src="https://itz-marcus.github.io/Project_images/Background_img.jpeg" alt="bgimage" loading="lazy">
+    <img src="https://itz-marcus.github.io/Project_images/Background_img.jpeg" alt="bgimage" loading="eager">
     <div class="flexing">
       <div id="d1">
         <navbar-comp>
