@@ -6,7 +6,7 @@
                     <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="lazy" >
                 </div>
                 <br>
-                  <h2 data-aos="fade-left" data-aos-duration="400">Hi! I'm <b>Marcus Adonis</b>, I've been into <b>design</b> as long as I can remember. When I got into highschool and exposed to <b>coding</b> for the first time. I was <b>immediately</b> excited about the endless possibilities with <b>coding</b> and <b>design.</b>Now with this new passion for code I've been learning web development and ready to tackle the next project.
+                  <h2 data-aos="fade-left" data-aos-duration="400">Hi! I'm <b>Marcus Adonis</b>, I've been into <b>design</b> as long as I can remember. When I got into highschool and exposed to <b>coding</b> for the first time. I was <b>immediately</b> excited about the <b>endless</b> possibilities with <b>coding</b> and <b>design.</b> Now with this new passion for code I've been learning web development and ready to tackle the next project.
                     <br>
                     <br>
                         <b>Soft skills:</b> Team-player, Creativity 
@@ -24,6 +24,8 @@
                         <img src="https://itz-marcus.github.io/Project_images/JS.png" alt="HTMLL">
                         <img src="https://itz-marcus.github.io/Project_images/Boot_Strap.png" alt="HTMLL">
                         <img src="https://itz-marcus.github.io/Project_images/Vue.js_Logo.png" alt="HTMLL">
+                        <img src="https://itz-marcus.github.io/Project_images/Node.png" alt="HTMLL">
+                        <img src="https://itz-marcus.github.io/Project_images/MySQL.png" alt="HTMLL">
                     </h2>
     </div>
   </div>
@@ -39,14 +41,14 @@ export default {
 
   div h2 b {
     color: rgb(255, 199, 1);
-    font-size: 14px !important;
+    font-size: 13px !important;
     width: 65vw;
 }
 h2{
-   font-size: 14px !important;
+   font-size: 13px !important;
 }
   img[alt='pfp']{
-    width: 240px !important;
+    width: 190px !important;
     left: 55%;
     margin-left: auto;
     margin-right:auto;
@@ -129,7 +131,7 @@ img[alt='pfp']{
     width: 65vw;
 }
   h2 img{
-    height: 6vw;
+    height: 4vw;
 }
 img[alt='backgrounds']{
     height: 70vh;
@@ -146,5 +148,7 @@ img[alt='backgrounds']{
 u{
   font-size: 1.5vw;
 }
-
+@media screen and (max-width:1700px){
+  
+}
 </style>
