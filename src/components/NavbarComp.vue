@@ -3,7 +3,7 @@
     <nav id="navbar">
           <router-link to="/">Home</router-link>
           <router-link  to="/about">About</router-link>
-          <router-link id="nav3" to="/resume">Education</router-link>
+          <router-link id="nav3" to="/resume">Edu. & Work</router-link>
           <router-link  to="/projects">Projects</router-link>
           <router-link id="nav5" to="/contact">Contact</router-link>
     </nav> 
@@ -46,7 +46,7 @@ nav a.router-link-exact-active {
     margin-top: 1vw;
 }
 #nav3 {
-    margin-top: 80%;
+    margin-top: 120%;
     margin-bottom: 50%;
 }
 #nav5 {
