@@ -1,7 +1,6 @@
 <template>
   <div class="about">
     <div class="flexing2">
-           <!-- code here -->
                 <div data-aos="fade-right" data-aos-duration="400">
                     <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="eager" >
                 </div>

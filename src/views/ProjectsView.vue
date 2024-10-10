@@ -9,7 +9,7 @@
                         <h5 id="proj-t" class="card-title">{{project.name}}</h5>
                         <p id="proj-tx" class="card-text">{{ project.description }}</p>
                         <a id='button' :href='project.gitHub' target="_blank" class="btn btn-primary">Github</a>
-                        <a id='button' :href='project.vercel' target="_blank" class="btn btn-primary">See live</a>
+                        <a id='button2' :href='project.vercel' target="_blank" class="btn btn-primary">See live</a>
                     </div>
                 </div>  
             </div> 
@@ -69,6 +69,9 @@ export default {
 #button{
     font-size: 9px;
 }
+#button2{
+    font-size: 9px;
+}
 }
 @media screen and (max-width:350px){
 #card-b{
@@ -95,9 +98,27 @@ export default {
 #button{
     font-size: 9px;
 }
+#button2{
+    font-size: 9px;
+}
 }
 
 #button{
+    position: absolute;
+    bottom: 0;
+    border: 2px solid rgb(255, 199, 1);
+    background-color: rgb(255, 199, 1);
+    color: black;
+    font-weight: bold;
+    border-radius: 0px;
+    border: 0px; 
+    transition: 0.3s;
+    margin-right: 6px;
+}
+#button2{
+    position: absolute;
+    bottom: 0;
+    left: 10vw;
     border: 2px solid rgb(255, 199, 1);
     background-color: rgb(255, 199, 1);
     color: black;
@@ -108,6 +129,12 @@ export default {
     margin-right: 6px;
 }
 #button:hover{
+    box-shadow: 3px 4px 0px rgb(255, 199, 1);
+    border: 2px solid rgb(255, 199, 1);
+    background-color:black ;
+    color: rgb(255, 199, 1);
+}
+#button2:hover{
     box-shadow: 3px 4px 0px rgb(255, 199, 1);
     border: 2px solid rgb(255, 199, 1);
     background-color:black ;
