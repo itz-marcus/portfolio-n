@@ -96,7 +96,7 @@ export default {
     color: white;
 }
 #button{
-    font-size: 9px;
+    font-size: 9px; 
 }
 #button2{
     font-size: 9px;
@@ -114,6 +114,7 @@ export default {
     border: 0px; 
     transition: 0.3s;
     margin-right: 6px;
+    margin-bottom: 1vw
 }
 #button2{
     position: absolute;
@@ -127,15 +128,16 @@ export default {
     border: 0px; 
     transition: 0.3s;
     margin-right: 6px;
+    margin-bottom: 1vw
 }
 #button:hover{
-    box-shadow: 3px 4px 0px rgb(255, 199, 1);
+    box-shadow: 0.2vw 0.3vw 0px rgb(255, 199, 1);
     border: 2px solid rgb(255, 199, 1);
     background-color:black ;
     color: rgb(255, 199, 1);
 }
 #button2:hover{
-    box-shadow: 3px 4px 0px rgb(255, 199, 1);
+    box-shadow: 0.2vw 0.3vw rgb(255, 199, 1);
     border: 2px solid rgb(255, 199, 1);
     background-color:black ;
     color: rgb(255, 199, 1);
@@ -146,7 +148,7 @@ export default {
     height: 17vw;
 }
 #Card:hover{
-    box-shadow: 10px 10px 0px rgb(255, 199, 1);
+    box-shadow: 0.6vw 0.8vw 0px rgb(255, 199, 1);
     background-color: black;
     transform: scale(1.02);
 }
