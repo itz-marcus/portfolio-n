@@ -19,7 +19,6 @@
             <spinner-comp/>
         </div>
     </div>
-    
 </template>
 <script>
 import SpinnerComp from '@/components/SpinnerComp.vue';
@@ -169,33 +168,7 @@ img[alt='backgrounds2']{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* max-height: 95vh; */
-    overflow-y: scroll;
 }
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  /* background: #f1f1f1;  */
-  display: none;
-  width: 50px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: yellow; 
-
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: yellow; 
-}
-
 #proj-b{
     background-color:transparent;
 }

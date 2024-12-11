@@ -113,9 +113,7 @@ export default {
     position: fixed;
     z-index: -1;
     left: 50vw;
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto; */
+    
 }
 }
 #home-title{
@@ -165,8 +163,6 @@ img[alt='logo']{
     z-index: -1;
     top: 5%;
     left: 46%;
-    /* margin-left: auto;
-    margin-right:auto; */
 
 }
 img[alt='banner']{

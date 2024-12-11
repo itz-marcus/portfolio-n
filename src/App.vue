@@ -67,5 +67,6 @@ img[alt='bgimage']{
     opacity: 0.2; 
     position: fixed;
     z-index: -1;
+    transform: rotate(180deg);
 }
 </style>

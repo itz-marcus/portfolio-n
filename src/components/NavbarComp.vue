@@ -2,10 +2,11 @@
   <div>
     <nav id="navbar">
           <router-link to="/">Home</router-link>
-          <router-link  to="/about">About</router-link>
+          <router-link to="/about">About</router-link>
           <router-link id="nav3" to="/resume">Edu. & Work</router-link>
-          <router-link  to="/projects">Projects</router-link>
-          <router-link id="nav5" to="/contact">Contact</router-link>
+          <router-link to="/projects">Projects</router-link>
+          <router-link to="/case-studies">Cases</router-link>
+          <router-link id="nav6" to="/contact">Contact</router-link>
     </nav> 
   </div>
 </template>
@@ -35,7 +36,7 @@ nav a.router-link-exact-active {
   color:rgb(255, 199, 1);
 }
 #navbar{
-    height: 72vh;
+    height: 75vh;
     display: flex;
     justify-content:space-evenly;
     flex-direction: column;
@@ -45,10 +46,10 @@ nav a.router-link-exact-active {
     margin-top: 1vw;
 }
 #nav3 {
-    margin-top: 120%;
-    margin-bottom: 50%;
+    margin-top: 150%;
+    margin-bottom: 70%;
 }
-#nav5 {
+#nav6 {
     margin-top: 40%;
 }
 </style>
