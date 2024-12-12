@@ -92,7 +92,7 @@ export default {
     height: 284px;
 }
 #Card:hover{
-    box-shadow: 1rem 1rem 0px rgb(255, 199, 1);
+    box-shadow: 10px 10px 0px rgb(255, 199, 1);
     background-color: black;
     transform: scale(1.02);
 }
