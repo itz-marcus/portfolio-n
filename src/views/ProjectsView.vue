@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <div id="container" v-if="projectData()">
-          <div v-for ="project in projectData()" :key="project.name" data-aos="zoom-in" data-aos-duration="400">
+    <div id="scroll">
+        <div id="container" v-if="projectData()" data-aos="zoom-in" data-aos-duration="400">
+          <div v-for ="project in projectData()" :key="project.name" >
             <div id="Card" >
-                <div id="card-b" class="card" style="margin-top: 3vh;border-radius: 0px; width: 17rem; height: 17.2vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
+                <div id="card-b" class="card" style="margin-top: 38.4px;border-radius: 0px; width: 272px; height: 280px; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
                     <img id="card-cover" :src= 'project.image'  class="card-img-top" alt="...">
                     <div id="proj-b" class="card-body">
                         <h5 id="proj-t" class="card-title">{{project.name}}</h5>
@@ -41,69 +41,6 @@ export default {
 }
 </script>
 <style scoped>
-@media screen and (max-width:700px) and (min-width:351px){
-#card-b{
-    border-radius: 0px;
-    width: 17rem; height: 18vw;
-    background-color: rgba(0, 0, 0, 0.544);
-    color: white;
-    box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);
-    width: 130px !important;
-    height: 160px !important;
-    margin-top: 3vh !important;
-}
-#Card{
-    transition: 0.3s;
-    margin-left: 3vw;
-    height: 160px !important;
-}
-#proj-tx{
-    font-size: 7px !important; 
-}
-#card-cover{
-    height: 60px !important;
-}
-#proj-t{
-    font-size: 13px !important;
-    color: white;
-}
-#button{
-    font-size: 9px;
-}
-#button2{
-    font-size: 9px;
-}
-}
-@media screen and (max-width:350px){
-#card-b{
-    border-radius: 0px;
-    width: 17rem; 
-    height: 18vw ;
-    background-color: rgba(0, 0, 0, 0.544);
-    color: white;
-    box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);
-    width: 100px !important;
-    height: 160px !important;
-    margin-top: 14vh !important;
-}
-#proj-tx{
-    font-size: 7px !important; 
-}
-#card-cover{
-    height: 60px !important;
-}
-#proj-t{
-    font-size: 13px !important;
-    color: white;
-}
-#button{
-    font-size: 9px; 
-}
-#button2{
-    font-size: 9px;
-}
-}
-
 #button{
     position: absolute;
     bottom: 0;
@@ -115,12 +52,15 @@ export default {
     border: 0px; 
     transition: 0.3s;
     margin-right: 6px;
-    margin-bottom: 1vw
+    margin-bottom: 1vw;
+    height: 30px;
+    width: 70px;
+    font-size: 13px;
 }
 #button2{
     position: absolute;
     bottom: 0;
-    left: 10vw;
+    left: 180px;
     border: 2px solid rgb(255, 199, 1);
     background-color: rgb(255, 199, 1);
     color: black;
@@ -129,10 +69,13 @@ export default {
     border: 0px; 
     transition: 0.3s;
     margin-right: 6px;
-    margin-bottom: 1vw
+    margin-bottom: 1vw;
+    height: 30px;
+    width: 80px;
+    font-size: 13px;
 }
 #button:hover{
-    box-shadow: 0.2vw 0.3vw 0px rgb(255, 199, 1);
+    box-shadow: 2px 2px 0px rgb(255, 199, 1);
     border: 2px solid rgb(255, 199, 1);
     background-color:black ;
     color: rgb(255, 199, 1);
@@ -146,10 +89,10 @@ export default {
 #Card{
     transition: 0.3s;
     margin-left: 3vw;
-    height: 17vw;
+    height: 284px;
 }
 #Card:hover{
-    box-shadow: 0.6vw 0.8vw 0px rgb(255, 199, 1);
+    box-shadow: 1rem 1rem 0px rgb(255, 199, 1);
     background-color: black;
     transform: scale(1.02);
 }
@@ -165,12 +108,16 @@ img[alt='backgrounds2']{
     margin-right:auto;
     object-fit: contain;
 }
+#scroll{
+    overflow-y: scroll;
+    height: 83vh;
+}
 #container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* max-height: 95vh; */
-    overflow-y: scroll;
+    padding-bottom: 3rem;
+    padding-right: 1.5em;
 }
 
 /* width */
@@ -181,30 +128,29 @@ img[alt='backgrounds2']{
 /* Track */
 ::-webkit-scrollbar-track {
   /* background: #f1f1f1;  */
-  display: none;
+  /* display: none; */
   width: 50px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: yellow; 
-
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: yellow; 
+  background-color:rgb(255, 199, 1) ; 
 }
 
 #proj-b{
     background-color:transparent;
 }
 #proj-tx{
-    font-size: 70%;
+    font-size: 11.5px;
     color: white;
 }
+
+#proj-t{
+    font-size: 17px;
+}
+
 #card-cover{
-    height: 7.5vw;
+    height: 140px;
     width: 100%;
 }
 </style>

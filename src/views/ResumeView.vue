@@ -12,7 +12,7 @@
             <br>
             <b>2017-2021</b>
         </div>            
-    </div>y
+    </div>
 </template>
 <script>
 export default {
