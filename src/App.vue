@@ -61,12 +61,23 @@ font-size: 1vw;
   backdrop-filter:blur(px)
 }
 img[alt='bgimage']{
-    width: 97.5vw;
-    height: 83.5vh;
-    background-repeat: no-repeat;
-    opacity: 0.2; 
-    position: fixed;
-    z-index: -1;
-    transform: rotate(180deg);
+  width: 97.5vw;
+  height: 83.5vh;
+  background-repeat: no-repeat;
+  opacity: 0.2; 
+  position: fixed;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+@media screen and (min-width:1550px){
+  #border{
+  border: solid 3px rgb(255, 199, 1);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+  height: 84vh;
+  backdrop-filter:blur(px)
+}
 }
 </style>

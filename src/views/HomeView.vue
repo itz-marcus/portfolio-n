@@ -118,7 +118,7 @@ export default {
 }
 #home-title{
     margin-top: 10%;
-    width: 40vw;
+    width: 25vw;
     font-size: 8vw;
     margin-left: 10%;
     font-weight:bolder;

@@ -45,4 +45,18 @@
     align-content: center;
     background: #151515;
 }
+@media screen and (min-width:1550px){
+  #foot{
+    margin: 11px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 8vh;
+    overflow: hidden !important;
+  }
+  #foot, .cr{
+    font-size: 15px ;
+  }
+}
+
   </style>
